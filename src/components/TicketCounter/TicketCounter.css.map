@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"TicketCounter.css"}
+{"version":3,"sources":["TicketCounter.scss","TicketCounter.css"],"names":[],"mappings":"AAAA;EACI,SAAA;ACCJ;;ADEA;EACI,iBAAA;EACA,cAAA;EACA,eAAA;EACA,cAAA;EACA,aAAA;EACA,sBAAA;EACA,6BAAA;EACA,mBAAA;EACA,uBAAA;EACA,mBAAA;EACA,gCAAA;ACCJ","file":"TicketCounter.css"}

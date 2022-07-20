@@ -12,24 +12,22 @@ import TicketCounter from './components/TicketCounter/TicketCounter.jsx';
 import team from './data/team-data';
 
 const ticketCardArray = team.map((employee) => {
-  return (
-    <section className="counter-container">
-      <TicketCounter name={employee.name} role={employee.role} key = {employee.id}/>
-    </section>
-  );
+return (
+<section className="counter-container">
+  <TicketCounter name={employee.name} role={employee.role} key = {employee.id}/>
+</section>
+);
 })
  
 const App = () => {
-  return (
-    <div className="app">
-      <main className="app-container">
-        <h1 className="app-container__title">Ticket Tracker</h1>
-        <section className="app-container__ticket-container">
-          {ticketCardArray}
-        </section>
-      </main>
+return (
+  <div className="app">
+    <main className="app-container">
+    <h1 className="app-container__title">Ticket Tracker</h1>
+    <section className="app-container__ticket-container">{ticketCardArray}</section>
+    </main>
     </div>
-  );
+);
 }
 
 export default App;
