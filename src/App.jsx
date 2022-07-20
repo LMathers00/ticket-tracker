@@ -18,7 +18,7 @@ const ticketCardArray = team.map((employee) => {
     </section>
   );
 })
-
+ 
 const App = () => {
   return (
     <div className="app">
